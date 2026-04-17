@@ -188,3 +188,34 @@ export async function readCtaSection(): Promise<CtaSection | null> {
     return null;
   }
 }
+
+
+interface SocialLinks {
+  linkedin?: string;
+  email?: string;
+}
+
+interface TeamMember {
+  name: string;
+  role: string;
+  bio: string;
+  image?: string;
+  socials?: SocialLinks;
+}
+
+interface TeamSection {
+  heading: string;
+  subheading: string;
+  badge: string;
+  members: TeamMember[];
+}
+
+export async function readTeamSection(): Promise<TeamSection | null> {
+  const filePath = path.join(process.cwd(), 'data', 'home', 'team_section.json');
+  try {
+    return await fs.readJson(filePath);
+  } catch (error) {
+    console.error("Error reading team section:", error);
+    return null;
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "heading": "Meet the Legal Minds Behind Your Case",
+  "subheading": "A dedicated team of experienced attorneys committed to delivering justice.",
+  "badge": "Our Team",
+  "members": [
+    {
+      "name": "Adv. Tariq Mehmood",
+      "role": "Senior Partner",
+      "bio": "20+ years in criminal and constitutional law. Known for landmark High Court victories.",
+      "image": "https://waqarandwaqar.com/wp-content/uploads/2026/01/Muhammad-Shoaib.webp",
+      "socials": {
+        "linkedin": "https://linkedin.com/in/tariq-mehmood",
+        "email": "tariq@yourlawfirm.com"
+      }
+    },
+    {
+      "name": "Adv. Sana Rizvi",
+      "role": "Corporate Law",
+      "bio": "Specialist in corporate litigation, mergers, and commercial contract disputes.",
+      "image": "https://waqarandwaqar.com/wp-content/uploads/2026/01/Sadat-Khan.webp",
+      "socials": {
+        "linkedin": "https://linkedin.com/in/sana-rizvi",
+        "email": "sana@yourlawfirm.com"
+      }
+    },
+    {
+      "name": "Adv. Bilal Hassan",
+      "role": "Family Law",
+      "bio": "Trusted counsel for family matters including divorce, custody, and inheritance cases.",
+      "image": "https://waqarandwaqar.com/wp-content/uploads/2026/01/Muhammad-Riaz-Awan.webp",
+      "socials": {
+        "linkedin": "https://linkedin.com/in/bilal-hassan",
+        "email": "bilal@yourlawfirm.com"
+      }
+    }
+  ]
+}
