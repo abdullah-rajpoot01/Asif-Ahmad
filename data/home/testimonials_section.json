@@ -1,0 +1,22 @@
+{
+  "heading": "What Our Clients Say",
+  "subheading": "Real feedback from clients we have successfully represented.",
+  "badge": "Testimonials",
+  "testimonials": [
+    {
+      "name": "Ahmed Khan",
+      "feedback": "Excellent legal support. They handled my case professionally and achieved a great result.",
+      "rating": 5
+    },
+    {
+      "name": "Sara Ali",
+      "feedback": "Very experienced and trustworthy lawyers. I felt supported throughout my case.",
+      "rating": 5
+    },
+    {
+      "name": "Muhammad Usman",
+      "feedback": "Highly recommended law firm. Clear guidance and strong representation in court.",
+      "rating": 5
+    }
+  ]
+}

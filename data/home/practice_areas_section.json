@@ -1,0 +1,32 @@
+{
+  "heading": "Our Practice Areas",
+  "subheading": "We provide expert legal services across multiple fields of law.",
+  "badge": "Practice Areas",
+  "areas": [
+    {
+      "title": "Criminal Law",
+      "description": "Defense in criminal cases with strong legal representation.",
+      "link": "/practice-areas/criminal-law"
+    },
+    {
+      "title": "Civil Law",
+      "description": "Handling disputes related to contracts, property, and rights.",
+      "link": "/practice-areas/civil-law"
+    },
+    {
+      "title": "Family Law",
+      "description": "Legal support for divorce, custody, and family matters.",
+      "link": "/practice-areas/family-law"
+    },
+    {
+      "title": "Property Law",
+      "description": "Assistance in land disputes, ownership, and property cases.",
+      "link": "/practice-areas/property-law"
+    },
+    {
+      "title": "Corporate Law",
+      "description": "Legal services for businesses, companies, and compliance.",
+      "link": "/practice-areas/corporate-law"
+    }
+  ]
+}

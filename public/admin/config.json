@@ -1,0 +1,228 @@
+{
+  "$schema": "https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json",
+  "backend": {
+    "name": "github",
+    "repo": "abdullah-rajpoot01/Asif-Ahmad"
+  },
+  "media_folder": "/public/media",
+  "public_folder": "/media",
+  "collections": [
+    {
+      "name": "home_page",
+      "label": "Home Page",
+      "files": [
+        {
+          "name": "hero_section",
+          "label": "Hero Section",
+          "file": "/content/hero-section.json",
+          "fields": [
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "string",
+              "default": "Trusted Legal Experts You Can Rely On"
+            },
+            {
+              "label": "Subheading",
+              "name": "subheading",
+              "widget": "string",
+              "default": "Professional legal services in all major practice areas."
+            },
+            {
+              "label": "Badge",
+              "name": "badge",
+              "widget": "string",
+              "default": "Legal Excellence"
+            },
+            {
+              "label": "Phone",
+              "name": "phone",
+              "widget": "string",
+              "default": "+92XXXXXXXXXX"
+            },
+            {
+              "label": "WhatsApp",
+              "name": "whatsapp",
+              "widget": "string",
+              "default": "+92XXXXXXXXXX"
+            },
+            {
+              "label": "Hero Image",
+              "name": "image",
+              "widget": "image",
+              "default": "/media/lawyer-hero.jpg"
+            },
+            {
+              "label": "Card Title",
+              "name": "cardTitle",
+              "widget": "string",
+              "default": "10+ Years Experience"
+            },
+            {
+              "label": "Card Description",
+              "name": "cardDescription",
+              "widget": "string",
+              "default": "Trusted legal support with proven results."
+            }
+          ]
+        },
+        {
+          "name": "practice_areas",
+          "label": "Practice Areas",
+          "file": "/content/practice-areas.json",
+          "fields": [
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "string",
+              "default": "Our Practice Areas"
+            },
+            {
+              "label": "Subheading",
+              "name": "subheading",
+              "widget": "string",
+              "default": "We provide expert legal services across multiple fields of law."
+            },
+            {
+              "label": "Areas",
+              "name": "areas",
+              "widget": "list",
+              "summary": "{{fields.title}}",
+              "fields": [
+                { "label": "Title", "name": "title", "widget": "string" },
+                {
+                  "label": "Description",
+                  "name": "description",
+                  "widget": "text"
+                },
+                { "label": "Link", "name": "link", "widget": "string" }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "about",
+          "label": "About Section",
+          "file": "/content/about.json",
+          "fields": [
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "string",
+              "default": "About Our Firm"
+            },
+            {
+              "label": "Subheading",
+              "name": "subheading",
+              "widget": "string",
+              "default": "Trusted legal experts with a commitment to justice and client success."
+            },
+            {
+              "label": "Description",
+              "name": "description",
+              "widget": "text",
+              "default": "We are a professional law firm specializing in criminal, civil, family, property, and corporate law. With years of experience, we provide reliable legal solutions with integrity and dedication."
+            },
+            {
+              "label": "Stats",
+              "name": "stats",
+              "widget": "list",
+              "summary": "{{fields.label}} - {{fields.value}}",
+              "default": [
+                { "label": "Years Experience", "value": "10+" },
+                { "label": "Cases Won", "value": "500+" }
+              ],
+              "fields": [
+                { "label": "Label", "name": "label", "widget": "string" },
+                { "label": "Value", "name": "value", "widget": "string" }
+              ]
+            },
+            {
+              "label": "CTA",
+              "name": "cta",
+              "widget": "object",
+              "default": { "label": "Learn More", "link": "/about" },
+              "fields": [
+                {
+                  "label": "Button Label",
+                  "name": "label",
+                  "widget": "string"
+                },
+                { "label": "Link", "name": "link", "widget": "string" }
+              ]
+            },
+            {
+              "label": "Highlights",
+              "name": "highlights",
+              "widget": "list",
+              "default": [
+                "Client-first approach in every case",
+                "Transparent communication throughout",
+                "Proven track record of results"
+              ],
+              "field": {
+                "label": "Highlight",
+                "name": "highlight",
+                "widget": "string"
+              }
+            }
+          ]
+        },
+        {
+          "name": "testimonials",
+          "label": "Testimonials Section",
+          "file": "/content/testimonials.json",
+          "fields": [
+            {
+              "label": "Heading",
+              "name": "heading",
+              "widget": "string",
+              "default": "What Our Clients Say"
+            },
+            {
+              "label": "Subheading",
+              "name": "subheading",
+              "widget": "string",
+              "default": "Real feedback from clients we have successfully represented."
+            },
+            {
+              "label": "Testimonials",
+              "name": "testimonials",
+              "widget": "list",
+              "summary": "{{fields.name}} ({{fields.rating}} stars)",
+              "default": [
+                {
+                  "name": "Ahmed Khan",
+                  "feedback": "Excellent legal support. They handled my case professionally and achieved a great result.",
+                  "rating": 5
+                },
+                {
+                  "name": "Sara Ali",
+                  "feedback": "Very experienced and trustworthy lawyers. I felt supported throughout my case.",
+                  "rating": 5
+                },
+                {
+                  "name": "Muhammad Usman",
+                  "feedback": "Highly recommended law firm. Clear guidance and strong representation in court.",
+                  "rating": 5
+                }
+              ],
+              "fields": [
+                { "label": "Client Name", "name": "name", "widget": "string" },
+                { "label": "Feedback", "name": "feedback", "widget": "text" },
+                {
+                  "label": "Rating",
+                  "name": "rating",
+                  "widget": "number",
+                  "min": 1,
+                  "max": 5,
+                  "value_type": "int"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

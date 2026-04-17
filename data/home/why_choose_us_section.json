@@ -1,0 +1,27 @@
+{
+  "heading": "Why Choose Us",
+  "subheading": "We are committed to delivering trusted, reliable, and result-driven legal services.",
+  "badge": "Why Us",
+  "points": [
+    {
+      "title": "Experienced Lawyers",
+      "description": "Our team has years of experience handling complex legal cases."
+    },
+    {
+      "title": "Strong Case Strategy",
+      "description": "We carefully analyze every case and build a strong legal strategy."
+    },
+    {
+      "title": "Client-Focused Approach",
+      "description": "We prioritize our clients and keep them informed at every step."
+    },
+    {
+      "title": "Affordable Legal Services",
+      "description": "We provide high-quality legal help at reasonable and transparent fees."
+    },
+    {
+      "title": "High Success Rate",
+      "description": "We have a strong record of successful case outcomes."
+    }
+  ]
+}

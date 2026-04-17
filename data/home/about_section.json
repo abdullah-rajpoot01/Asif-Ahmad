@@ -1,0 +1,25 @@
+{
+  "heading": "About Our Firm",
+  "subheading": "Trusted legal experts with a commitment to justice and client success.",
+  "badge": "About Us",
+  "description": "We are a professional law firm specializing in criminal, civil, family, property, and corporate law. With years of experience, we provide reliable legal solutions with integrity and dedication.",
+  "stats": [
+    {
+      "label": "Years Experience",
+      "value": "10+"
+    },
+    {
+      "label": "Cases Won",
+      "value": "500+"
+    }
+  ],
+  "cta": {
+    "label": "Learn More",
+    "link": "/about"
+  },
+  "highlights": [
+    "Client-first approach in every case",
+    "Transparent communication throughout",
+    "Proven track record of results"
+  ]
+}
